@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <title>Manage connection endpoints for Windows 11 Enterprise (synthetic fixture) | Microsoft Learn</title>
+</head>
+<body>
+    <main>
+        <h1>Manage connection endpoints for Windows 11 Enterprise</h1>
+        <p>
+            This is a synthetic fixture built for unit testing the
+            WindowsEndpointParser module. It mirrors the structural shape of
+            the real Microsoft Learn endpoint table &mdash; grouped areas,
+            an area header/link row with a blank Protocol, continuation rows
+            with blank Area/Description cells, inline formatting tags, and
+            HTML entities &mdash; without being a verbatim copy of the live
+            page.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Area</th>
+                    <th>Description</th>
+                    <th>Protocol</th>
+                    <th>Destination</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Windows Insider Program</td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="#">Learn how to turn off traffic to all of the following endpoints for Windows Insider Program.</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Used to preview and provide feedback on upcoming Windows builds.</td>
+                    <td>TCP 443</td>
+                    <td>*.insider.windows.com</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TCP 443</td>
+                    <td>tsfe.insider.trafficshaping.dsp.mp.microsoft.com</td>
+                </tr>
+                <tr>
+                    <td><strong>Windows Update</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="#">Learn how to turn off traffic to all of the following endpoints for Windows Update.</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Used to scan, download, and install operating system &amp; app updates from Windows Update. See <a href="#">endpoint guidance</a> for details.</td>
+                    <td>TCP 443</td>
+                    <td><code>definitionupdates.microsoft.com</code></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TCP 443</td>
+                    <td><code>*.prod.do.dsp.mp.microsoft.com</code></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TCP 443</td>
+                    <td><code>*.dl.delivery.mp.microsoft.com</code></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TCP 443</td>
+                    <td><code>*.windowsupdate.com</code></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TCP 443</td>
+                    <td><code>*.delivery.mp.microsoft.com</code></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TCP 443</td>
+                    <td><code>*.update.microsoft.com</code></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TCP 443</td>
+                    <td><code>adl.windows.com</code></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TCP 443</td>
+                    <td><code>tsfe.trafficshaping.dsp.mp.microsoft.com</code></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TCP 443</td>
+                    <td><code>*.api.cdp.microsoft.com</code></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Malformed legacy row missing cells &mdash; must be ignored by the parser.</td>
+                </tr>
+                <tr>
+                    <td>Windows Update for Business</td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="#">Learn how to turn off traffic to all of the following endpoints for Windows Update for Business.</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Used to deliver update deferral policies for Windows Update for Business.</td>
+                    <td>TCP 443</td>
+                    <td>*.wub.microsoft.com</td>
+                </tr>
+                <tr>
+                    <td>Device authentication</td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="#">Learn how to turn off traffic to all of the following endpoints for device authentication.</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Used to authenticate the device when it accesses the Windows Update service.</td>
+                    <td>TCP 443</td>
+                    <td>login.live.com*</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TCP 443</td>
+                    <td>*.login.microsoftonline.com</td>
+                </tr>
+                <tr>
+                    <td>Microsoft Account</td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="#">Learn how to turn off traffic to all of the following endpoints for Microsoft Account.</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Used to sign in with a Microsoft account, required for some update and store scenarios.</td>
+                    <td>TCP 443</td>
+                    <td>account.microsoft.com</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>TCP 443</td>
+                    <td>*.accountalt.azureedge.net</td>
+                </tr>
+                <tr>
+                    <td>Certificate Trust</td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="#">Learn how to turn off traffic to all of the following endpoints for Certificate Trust.</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Used for certificate revocation checks.</td>
+                    <td>TCP 80</td>
+                    <td>*.digicert.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
