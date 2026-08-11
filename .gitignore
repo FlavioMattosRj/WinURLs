@@ -1,2 +1,6 @@
 *.orig
 testResults*.xml
+/out/
+/endpoint-map.json
+/endpoint-map.csv
+/endpoint-map.md
