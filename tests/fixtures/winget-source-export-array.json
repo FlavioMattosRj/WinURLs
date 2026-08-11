@@ -1,0 +1,4 @@
+[
+  {"Arg":"https://cdn.winget.microsoft.com/cache","Data":null,"Explicit":false,"Identifier":"Microsoft.Winget.Source_8wekyb3d8bbwe","Name":"winget","TrustLevel":"Trusted","Type":"Microsoft.PreIndexed.Package"},
+  {"Arg":"https://storeedgefd.dsx.mp.microsoft.com/v9.0","Data":null,"Explicit":false,"Identifier":"Microsoft.MSStore_8wekyb3d8bbwe","Name":"msstore","TrustLevel":"Trusted","Type":"Microsoft.Rest"}
+]
